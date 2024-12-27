@@ -1,0 +1,195 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  /* Scrollbar for WebKit browsers (Chrome, Safari, Edge) */
+  ::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: red; /* Thumb color */
+    border-radius: 9999px; /* Fully rounded edges */
+    min-height: 20px; /* Prevents thumb from becoming too long */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: darkred; /* Darker red on hover */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #1a202c; /* Track color */
+    border-radius: 9999px; /* Rounded track edges */
+  }
+
+  /* Ensures the thumb height doesn't stretch unnecessarily */
+  ::-webkit-scrollbar-thumb {
+    height: 20px; /* Control the thumb height */
+  }
+
+  /* Scrollbar for Firefox */
+  * {
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: red #1a202c; /* Thumb and track colors */
+  }
+}
+
+body * {
+  *::selection {
+    @apply text-emerald-400;
+  }
+}
+
+ul li {
+  cursor: alias;
+}
+.input {
+}
+.animated-border {
+  bottom: -10px; /* Slightly below the text */
+
+  height: 2px;
+  background: linear-gradient(to right, rgb(181, 0, 181), black);
+  background-size: 200%; /* Ensures smooth gradient motion */
+  animation: gradient-swing 3s infinite ease-in-out;
+}
+
+@keyframes gradient-swing {
+  0% {
+    background-position: 0% 50%; /* Starts from left */
+  }
+  50% {
+    background-position: 100% 50%; /* Moves to the right */
+  }
+  100% {
+    background-position: 0% 50%; /* Returns to the left */
+  }
+}
+
+body {
+  color: whitesmoke;
+}
+.hero {
+  background-image: url("/HeroBackground.png");
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+@layer {
+  .onHover:hover {
+    @apply text-red-500 transition-all duration-850;
+  }
+  .hero {
+    @apply w-screen min-h-svh bg-center bg-no-repeat bg-cover;
+  }
+  .input {
+    @apply rounded-xl  bg-zinc-900;
+  }
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
