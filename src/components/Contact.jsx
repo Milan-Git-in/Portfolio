@@ -43,7 +43,7 @@ const Contact = () => {
       id="contact"
       className="mt-[40vh] max-sm:mt-[60vh] flex flex-col justify-center items-center gap-10 max-sm:ml-20"
     >
-      <div className="text-2xl flex flex-col justify-center items-center">
+      <div className="text-2xl flex flex-col justify-center items-center max-sm:-ml-[20vw]">
         <div>Let's Build Together</div>
         <div
           id="togather"

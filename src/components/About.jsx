@@ -33,7 +33,7 @@ const About = () => {
   return (
     <div
       id="About"
-      className="cursor-default justify-self-center container pt-[10vh] rounded-xl bg-zinc-950 flex justify-center max-sm:flex-col max-sm:mt-[10vh] max-sm:ml-2"
+      className="cursor-default justify-self-center container pt-[10vh] rounded-xl bg-zinc-950 flex justify-center max-sm:flex-col max-sm:mt-[10vh]"
     >
       <div className="box opacity-0 rounded-3xl max-sm:h-80  translate-y-12  w-1/3 max-lg:w-1/3 max-sm:min-w-full">
         <Canvas>

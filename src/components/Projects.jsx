@@ -39,7 +39,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="flex flex-col mt-[20vh] max-sm:ml-3">
+    <div className="flex flex-col mt-[20vh] mx-2">
       <div className="flex flex-col justify-center items-center text-3xl">
         <div className="build opacity-0 gap-7 translate-y-20 flex">
           <div>My</div>
