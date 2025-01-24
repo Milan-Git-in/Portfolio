@@ -121,7 +121,7 @@ const Contact = () => {
             rows={4}
             cols={34}
             id="details"
-            className="input border-2 border-white  px-5"
+            className="input border-2 border-white  px-5 max-sm:w-[60vw]"
             {...register("details", {
               required: "Details will be appreciated",
               minLength: {
