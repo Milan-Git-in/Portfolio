@@ -47,7 +47,7 @@ const Projects = () => {
         </div>
         <div className="build opacity-0 my-2 w-[20vw] max-sm:w-40 animated-border"></div>
       </div>
-      <div className="projects-container grid grid-cols-3 gap-6 mt-[10vh] max-md:flex max-md:flex-col mx-2">
+      <div className="projects-container grid grid-cols-2 gap-6 mt-[10vh] max-md:flex max-md:flex-col mx-2">
         <div className="project-box opacity-0  translate-y-[100px]">
           <ProjectCard
             Image={"/HeroBackground.png"}
@@ -62,13 +62,13 @@ const Projects = () => {
             Project_Desc={"Project Desc"}
           />
         </div>
-        <div className="project-box opacity-0  translate-y-[100px]">
+        {/* <div className="project-box opacity-0  translate-y-[100px]">
           <ProjectCard
             Image={"/HeroBackground.png"}
             Project_Name={"Project 3"}
             Project_Desc={"Project Desc"}
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

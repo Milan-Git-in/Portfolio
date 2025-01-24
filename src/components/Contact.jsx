@@ -41,9 +41,9 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="mt-[40vh] max-sm:mt-[60vh] flex flex-col justify-center items-center gap-10 max-sm:ml-20"
+      className="mt-[40vh] max-sm:mt-[60vh] flex flex-col justify-center items-center  gap-10 "
     >
-      <div className="text-2xl flex flex-col justify-center items-center max-sm:-ml-[20vw]">
+      <div className="text-2xl flex flex-col justify-center items-center ">
         <div>Let's Build Together</div>
         <div
           id="togather"
@@ -53,9 +53,9 @@ const Contact = () => {
 
       <form
         onSubmit={handleSubmit(submit)}
-        className="form flex flex-col justify-start items-start gap-6"
+        className="form flex flex-col justify-start  items-start gap-6"
       >
-        <div className="flex items-center gap-x-4 w-full max-sm:flex-col max-sm:-ml-[10vw]">
+        <div className="flex items-center gap-x-4 w-full max-sm:flex-col ">
           <label className="text-white w-36" htmlFor="company">
             Company Name
           </label>
@@ -73,7 +73,7 @@ const Contact = () => {
           </p>
         )}
 
-        <div className="flex items-center gap-x-4 w-full max-sm:flex-col max-sm:-ml-[10vw]">
+        <div className="flex items-center gap-x-4 w-full max-sm:flex-col ">
           <label className="text-white w-36" htmlFor="email">
             Company Email
           </label>
@@ -95,7 +95,7 @@ const Contact = () => {
           </p>
         )}
 
-        <div className="flex items-center gap-x-4 w-full max-sm:flex-col max-sm:-ml-[10vw]">
+        <div className="flex items-center gap-x-4 w-full max-sm:flex-col ">
           <label className="text-white w-36" htmlFor="subject">
             Subject
           </label>
@@ -113,7 +113,7 @@ const Contact = () => {
           </p>
         )}
 
-        <div className="flex items-center gap-x-4 w-full max-sm:flex-col max-sm:-ml-[10vw]">
+        <div className="flex items-center gap-x-4 w-full max-sm:flex-col ">
           <label className="text-white w-36" htmlFor="details">
             Details
           </label>
@@ -139,19 +139,18 @@ const Contact = () => {
           </div>
         )}
 
-        <div className="flex items-center self-center gap-x-4 w-full max-sm:flex-col">
+        <div className="flex items-center self-center gap-x-4  max-sm:flex-col ">
           <input
             type="submit"
             value="Hire me"
-            className="cursor-pointer border-2 rounded-xl text-sm p-1 max-sm:-ml-12"
+            className="cursor-pointer border-2 rounded-xl text-sm p-1 max-sm:-ml-12 w-[100px]"
           />
         </div>
-
-        <div
-          id="togather"
-          className="my-2 w-[40vw] max-sm:w-[90vw] max-sm:-ml-14 animated-border"
-        />
       </form>
+      <div
+        id="togather"
+        className="my-2 w-[40vw] max-sm:w-[80vw]  animated-border"
+      />
     </div>
   );
 };

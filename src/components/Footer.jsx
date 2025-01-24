@@ -31,7 +31,7 @@ const Footer = () => {
           />
         </a>
       </div>
-      <p>©️ 2024 Milan. All rights Reserved </p>
+      <p>©️ 2025 Milan. All rights Reserved </p>
     </section>
   );
 };

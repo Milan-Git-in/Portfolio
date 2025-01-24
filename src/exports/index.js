@@ -5,7 +5,7 @@ export const toolNames = [
   { "Express.js": "techstack/Express.png" },
   { "Tailwind Css": "techstack/Tailwind.png" },
   { Gsap: "techstack/Gsap.png" },
-  { "Three.js": "techstack/Three.png" },
+  // { "Three.js": "techstack/Three.png" },
   { "Node.js": "techstack/Node.png" },
   { JavaScript: "techstack/JavaScript.png" },
 ];
