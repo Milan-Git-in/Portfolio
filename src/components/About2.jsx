@@ -2,7 +2,7 @@ import React from "react";
 
 const About2 = () => {
   return (
-    <div id="About" className="flex  gap-[7vw] justify-center  px-5 ">
+    <div id="About" className="flex mt-[10vh]  gap-[7vw] justify-center  px-5 ">
       <div>
         <img
           src={"https://avatars.githubusercontent.com/u/151204285?v=4"}

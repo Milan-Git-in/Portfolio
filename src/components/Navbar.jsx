@@ -18,7 +18,9 @@ const Navbar = () => {
             <a href="#contact">Contact Me</a>
           </li>
           <li className="max-sm:w-screen max-sm:text-center onHover">
-            <a href="#footer">Connect with me</a>
+            <a href="https://www.linkedin.com/in/milan-prajapati-1b676526b/">
+              Connect with me
+            </a>
           </li>
         </ul>
       </div>

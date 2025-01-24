@@ -49,18 +49,24 @@ const Projects = () => {
       </div>
       <div className="projects-container grid grid-cols-2 gap-6 mt-[10vh] max-md:flex max-md:flex-col mx-2">
         <div className="project-box opacity-0  translate-y-[100px]">
-          <ProjectCard
-            Image={"/HeroBackground.png"}
-            Project_Name={"Project 1"}
-            Project_Desc={"Project Desc"}
-          />
+          <a href="https://my-project-mu-dusky.vercel.app/" target="_blank">
+            <ProjectCard
+              Image={"/Apple.png"}
+              Project_Name={"Apple Iphone 15 Clone"}
+              Project_Desc={
+                "A Replica of iPhone 15 Website with 3D iPhone & Animations"
+              }
+            />
+          </a>
         </div>
         <div className="project-box opacity-0  translate-y-[100px]">
-          <ProjectCard
-            Image={"/HeroBackground.png"}
-            Project_Name={"Project 2"}
-            Project_Desc={"Project Desc"}
-          />
+          <a href="https://shop-co-beryl.vercel.app/" target="_blank">
+            <ProjectCard
+              Image={"/ShopCo.png"}
+              Project_Name={"SHOP.CO"}
+              Project_Desc={"An Seamless Shopping Store, visit yourself"}
+            />
+          </a>
         </div>
         {/* <div className="project-box opacity-0  translate-y-[100px]">
           <ProjectCard
