@@ -57,7 +57,7 @@ const About = () => {
               My Education:
               <br />{" "}
               <div className="pl-6">
-                • a Bachlors Degree in Computer Science
+                • a Bachelors Degree in Computer Science
               </div>
               <div className="mt-2 pl-6">
                 • IBM{" "}
